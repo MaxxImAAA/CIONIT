@@ -1,0 +1,26 @@
+﻿
+services:
+    db:
+        image: postgres:latest
+        container_name: onitdb
+        environment:
+            POSTGRES_DB: labaonitdb
+            POSTGRES_USER: postgres
+            POSTGRES_PASSWORD: 12345
+        ports:
+            - "5432"
+        volumes:
+            - pgdata:/var/lib/postgresql/data
+volumes:
+    pgdata:
+    
+    
+            
+
+
+ 
+
+        
+      
+    
+    
