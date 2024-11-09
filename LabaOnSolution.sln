@@ -5,6 +5,13 @@ VisualStudioVersion = 17.8.34309.116
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "labaOnit", "labaOnit\labaOnit.csproj", "{4EDA36AB-50F5-457F-A211-0795C2634C5A}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".github", ".github", "{513188C4-0255-4798-82C3-290CD30D29A4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "workflows", "workflows", "{4B71A23B-9299-49E0-BBDB-04DD5965E7EB}"
+	ProjectSection(SolutionItems) = preProject
+		ci-cd.yaml = ci-cd.yaml
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,6 +25,9 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4B71A23B-9299-49E0-BBDB-04DD5965E7EB} = {513188C4-0255-4798-82C3-290CD30D29A4}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F9650AB3-153B-4307-A3A7-1DFF87943564}
